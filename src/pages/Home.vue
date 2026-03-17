@@ -1,7 +1,7 @@
 <template>
   <div class="app">
     <!-- Navbar -->
-
+<h1></h1>
 <!-- Hero Section -->
 <section class="hero">
   <h1>Hi, I’m Muhammad Naqi</h1>
@@ -65,10 +65,10 @@
     <section class="contact">
       <h2>Contact Me</h2>
       <form @submit.prevent="sendMessage">
-        <input v-model="name" type="text" placeholder="Your Name" required>
-        <input v-model="email" type="email" placeholder="Your Email" required>
-        <input v-model="phone" type="tel" placeholder="Phone Number">
-        <textarea v-model="message" placeholder="Your Message" required></textarea>
+        <input v-model="name" type="text" placeholder="enter Your Name" required>
+        <input v-model="email" type="email" placeholder="enter Your Email" required>
+        <input v-model="phone" type="tel" placeholder="enter Phone Number">
+        <textarea v-model="message" placeholder="enter Your Message" required></textarea>
         <button type="submit">Send Message</button>
       </form>
     </section>
@@ -141,7 +141,7 @@ body, html, .app {
   font-size: 1rem;
   border: none;
   background-color: #ff8800;
-  color: rgb(0, 0, 0);
+  color:white;
   font-weight: bold;
   border-radius: 50px;
   cursor: pointer;
